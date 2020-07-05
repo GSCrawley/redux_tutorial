@@ -21,6 +21,8 @@
 
 ## The type property drives how the state should change and it's always required by Redux. The payload property instead describes what should change, and might be omitted if you don't have new data to save in the store.
 
+## You might be surprised to know that Redux itself is a small library (2KB) and the most important methods are just three:b -getState- for reading the current state of the application, -dispatch- for dispatching an action, -subscribe- for listening to state changes
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
