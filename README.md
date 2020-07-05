@@ -24,6 +24,8 @@
 ## You might be surprised to know that Redux itself is a small library (2KB) and the most important methods are just three:b -getState- for reading the current state of the application, -dispatch- for dispatching an action, -subscribe- for listening to state changes
 
 ## Redux is framework agnostic. You can use it with vanilla Javascript. Or with Angular. Or with React. There are bindings for joining together Redux with your favorite framework/library.
+----------
+## The List component on the left talks to the Redux store. It will re-render whenever you add a new item.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
