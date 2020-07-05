@@ -19,6 +19,8 @@
 
 ## What’s a reducer? A Redux reducer is just a JavaScript function. It takes two parameters: the current state and action
 
+## The type property drives how the state should change and it's always required by Redux. The payload property instead describes what should change, and might be omitted if you don't have new data to save in the store.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
