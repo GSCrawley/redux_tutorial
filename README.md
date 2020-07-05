@@ -17,6 +17,8 @@
 
 ## The most important concept to understand here is that the state in Redux comes from reducers. Let’s repeat: reducers produce the state of your application.
 
+## What’s a reducer? A Redux reducer is just a JavaScript function. It takes two parameters: the current state and action
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
