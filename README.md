@@ -27,6 +27,10 @@
 ----------
 ## The List component on the left talks to the Redux store. It will re-render whenever you add a new item.
 
+## A Redux middleware is a function that is able to intercept, and act accordingly, our actions, before they reach the reducer. 
+## In its basic form a Redux middleware is a function returning a function, which takes next as a parameter. Then the inner function returns another function which takes action as a parameter and finally returns next(action). 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
